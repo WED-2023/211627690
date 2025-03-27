@@ -47,26 +47,32 @@ body {
 	vertical-align: middle;
   }
   
-  /* Menu items */
   #menu li {
-	margin: 0 20px;
+	margin: 0;
 	list-style: none;
+	height: 100%;
   }
   
   #menu a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 60px; /* Same as menu height */
+	padding: 0 20px;
 	color: #fff;
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 18px;
-	padding: 10px 15px;
-	border-radius: 5px;
+	border-radius: 0;
 	transition: background 0.3s, color 0.3s;
   }
   
-  #menu a:hover {
+  /* Move hover effect to li a */
+  #menu li:hover a {
 	background-color: rgba(255, 255, 255, 0.2);
 	color: #ffd700;
   }
+  
   
   /* Section styling */
   .section {
