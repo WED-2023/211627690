@@ -2,7 +2,7 @@
 
 Welcome to Uncle Iroh website 🌐  
 Uncle Iroh is a character from "Avatar: The Last Airbender"
-Check it out here: [text](https://wed-2023.github.io/211627690/)
+Check it out here: [Uncle Iroh's Website](https://wed-2023.github.io/211627690/)
 
 ## 👤 Project By
 
