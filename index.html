@@ -188,27 +188,30 @@
 </section>
 
 <section id="contact" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-contact me
-<br/>
-<br/>
-<br/>
+  <h2>📬 Contact Me</h2>
+  <p>Want to reach out to Uncle Iroh or the creator of this page? Leave a message below:</p>
+
+  <form class="contact-form" onsubmit="return handleSubmit(event)">
+    <label for="email">Your Email:</label>
+    <input type="email" id="email" name="email" required placeholder="you@example.com" />
+
+    <label for="message">Your Message:</label>
+    <textarea id="message" name="message" rows="5" required placeholder="Write your message here..."></textarea>
+
+    <label for="emoji">Choose a mood:</label>
+    <select id="emoji" name="emoji">
+      <option value="😊">😊 Friendly</option>
+      <option value="😢">😢 Emotional</option>
+      <option value="🔥">🔥 Passionate</option>
+      <option value="☕">☕ Peaceful (with tea)</option>
+    </select>
+
+    <button type="submit">Send</button>
+  </form>
+
+  <p id="form-status" style="margin-top: 20px;"></p>
 </section>
+
 
 
 <script type="text/javascript">

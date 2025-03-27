@@ -240,4 +240,49 @@ body {
 		display: flex;
 		justify-content: center;
 	  }
-	  }
+	}
+
+
+	/* ===================================================
+   📬 Contact Form
+=================================================== */
+.contact-form {
+	max-width: 500px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	text-align: left;
+  }
+  
+  .contact-form label {
+	font-weight: bold;
+	color: #8B0000;
+  }
+  
+  .contact-form input,
+  .contact-form textarea,
+  .contact-form select {
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 8px;
+	border: 1px solid #ccc;
+	font-family: inherit;
+  }
+  
+  .contact-form button {
+	padding: 10px 20px;
+	background-color: #8B0000;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: background 0.3s;
+  }
+  
+  .contact-form button:hover {
+	background-color: #A52A2A;
+  }
+  
