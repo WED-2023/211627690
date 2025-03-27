@@ -93,6 +93,31 @@ body {
   }
 
 
+  .about-container {
+	max-width: 800px;
+	margin: 0 auto;
+	background: #ffffff;
+	padding: 30px;
+	border-radius: 12px;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	text-align: left;
+	line-height: 1.6;
+	font-size: 16px;
+	color: #333;
+  }
+  
+  .about-block {
+	margin-bottom: 24px;
+  }
+  
+  .about-block h3 {
+	font-size: 20px;
+	color: #8B0000;
+	margin-bottom: 8px;
+	border-left: 4px solid #B22222;
+	padding-left: 12px;
+  }
+  
 
 
   /* Flame Effect Animation */
