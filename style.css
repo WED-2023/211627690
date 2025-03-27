@@ -91,6 +91,42 @@ body {
   iframe {
 	max-width: 100%;
   }
+  
+  .gallery {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+	gap: 20px;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding-top: 20px;
+  }
+  
+  .photo-card {
+	background-color: #fff;
+	border-radius: 12px;
+	overflow: hidden;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s ease;
+	text-align: center;
+  }
+  
+  .photo-card img {
+	width: 100%;
+	height: auto;
+	display: block;
+  }
+  
+  .photo-card:hover {
+	transform: translateY(-5px);
+  }
+  
+  .caption {
+	font-size: 14px;
+	color: #444;
+	padding: 10px;
+	background-color: #fef7f0;
+  }
+  
 
 
   .about-container {
