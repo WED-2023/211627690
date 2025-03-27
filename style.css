@@ -44,8 +44,12 @@ body {
   
   .logo-img {
 	height: 30px; 
+	width: 30px;
 	vertical-align: middle;
 	margin-right: 10px;
+	border-radius: 50%;
+	object-fit: cover;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   }
   
   #menu li {
