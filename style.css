@@ -91,4 +91,40 @@ body {
   iframe {
 	max-width: 100%;
   }
+
+
+
+
+
+  /* Flame Effect Animation */
+@keyframes fireFade {
+	0% {
+	  color: #ffcc00;
+	  text-shadow: 0 0 10px #ff9900, 0 0 20px #ff3300;
+	  transform: scale(1.05);
+	}
+	50% {
+	  color: #ffffff;
+	  text-shadow: 0 0 20px #ff6600, 0 0 30px #cc0000;
+	  transform: scale(1);
+	}
+	100% {
+	  color: inherit;
+	  text-shadow: none;
+	  transform: none;
+	}
+  }
+  
+  .flame-text p {
+	animation: fireFade 2s ease-in-out forwards;
+	opacity: 0;
+  }
+  
+  /* Stagger the animation for each line */
+  .flame-text p:nth-child(1) { animation-delay: 0.2s; opacity: 1; }
+  .flame-text p:nth-child(2) { animation-delay: 0.4s; opacity: 1; }
+  .flame-text p:nth-child(3) { animation-delay: 0.6s; opacity: 1; }
+  .flame-text p:nth-child(4) { animation-delay: 0.8s; opacity: 1; }
+  .flame-text p:nth-child(5) { animation-delay: 1s;   opacity: 1; }
+  
   
